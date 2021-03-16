@@ -1,9 +1,9 @@
 import Head from "next/head";
-// import { useSelector } from "react-redux";
-// import { globalSel } from "../store/global";
+import { useSelector } from "react-redux";
+import { globalSel } from "../store/global";
 
 function Index() {
-  // const count = useSelector(globalSel.countSelector);
+  const count = useSelector(globalSel.countSelector);
 
   return (
     <>
